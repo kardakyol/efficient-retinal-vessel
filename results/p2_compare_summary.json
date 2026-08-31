@@ -1,0 +1,1287 @@
+{
+  "summary": {
+    "mode": "compare",
+    "seeds_run": 3,
+    "by_seeding_test_dice": {
+      "random": {
+        "mean": 0.719472889105479,
+        "std": 0.013049755763478891,
+        "n": 3,
+        "values": [
+          0.7045997738838196,
+          0.7248144626617432,
+          0.7290044307708741
+        ]
+      },
+      "frangi": {
+        "mean": 0.7130682468414307,
+        "std": 0.02671538307834674,
+        "n": 3,
+        "values": [
+          0.6826680064201355,
+          0.7237317681312561,
+          0.7328049659729003
+        ]
+      },
+      "density_hist": {
+        "mean": 0.6400662223498027,
+        "std": 0.02740800794335573,
+        "n": 3,
+        "values": [
+          0.6155934691429138,
+          0.6349241018295289,
+          0.6696810960769654
+        ]
+      },
+      "density_per_image": {
+        "mean": 0.6839316964149474,
+        "std": 0.0232241234999451,
+        "n": 3,
+        "values": [
+          0.6571174383163452,
+          0.6970123529434205,
+          0.6976652979850769
+        ]
+      },
+      "granulometry": {
+        "mean": 0.6648755470911661,
+        "std": 0.007353069489242348,
+        "n": 3,
+        "values": [
+          0.6733114957809448,
+          0.6598246812820434,
+          0.6614904642105103
+        ]
+      }
+    }
+  },
+  "per_seed": [
+    {
+      "mode": "compare",
+      "config": {
+        "data_dir": "data",
+        "output_dir": "outputs",
+        "seeding": "density_hist",
+        "growth": "uniform",
+        "schedule": "medium",
+        "compare": true,
+        "frontier": false,
+        "confidence_loop": false,
+        "feedback_rounds": 5,
+        "feedback_k": 1,
+        "feedback_epochs": 40,
+        "n_seeds": 1,
+        "box_size": 128,
+        "min_box": 64,
+        "max_box": 192,
+        "reseed_confidence": 0,
+        "expansion_pixels": 16,
+        "keep_fraction": 0.5,
+        "confidence_threshold": 0.7,
+        "pseudo_weight": 0.3,
+        "finetune_epochs": 15,
+        "max_iterations": 25,
+        "selflabel_patience": 8,
+        "image_size": 512,
+        "base_epochs": 120,
+        "base_patience": 20,
+        "lr": 0.001,
+        "val_fraction": 0.15,
+        "test_fraction": 0.2,
+        "seed": 7,
+        "seeds": [
+          42,
+          123,
+          7
+        ],
+        "deterministic": true,
+        "no_cuda": false
+      },
+      "results": [
+        {
+          "seeding": "random",
+          "growth": "uniform",
+          "schedule": null,
+          "n_seeds_per_image": 1,
+          "box_size": 128,
+          "seed": 42,
+          "base_val_dice": 0.7491268118222555,
+          "best_val_dice": 0.7567901611328125,
+          "test_metrics": {
+            "loss": 0.24086988270282744,
+            "dice": 0.7045997738838196,
+            "iou": 0.5460760712623596,
+            "sensitivity": 0.6883312940597535,
+            "specificity": 0.9800606369972229
+          },
+          "final_coverage": 0.032924642155528774,
+          "iteration_log_val": [
+            {
+              "iteration": 1,
+              "coverage": 0.005868539790683748,
+              "val_dice": 0.7567901611328125
+            },
+            {
+              "iteration": 2,
+              "coverage": 0.008265977778367276,
+              "val_dice": 0.7310953736305237
+            },
+            {
+              "iteration": 3,
+              "coverage": 0.010944662310407183,
+              "val_dice": 0.7421697775522867
+            },
+            {
+              "iteration": 4,
+              "coverage": 0.013923140226627629,
+              "val_dice": 0.728018323580424
+            },
+            {
+              "iteration": 5,
+              "coverage": 0.01718068139107409,
+              "val_dice": 0.7231100598971049
+            },
+            {
+              "iteration": 6,
+              "coverage": 0.020730560691310542,
+              "val_dice": 0.717479407787323
+            },
+            {
+              "iteration": 7,
+              "coverage": 0.02455205916866641,
+              "val_dice": 0.696506679058075
+            },
+            {
+              "iteration": 8,
+              "coverage": 0.02860774037345243,
+              "val_dice": 0.704258382320404
+            },
+            {
+              "iteration": 9,
+              "coverage": 0.032924642155528774,
+              "val_dice": 0.7132025162378947
+            }
+          ]
+        },
+        {
+          "seeding": "frangi",
+          "growth": "uniform",
+          "schedule": null,
+          "n_seeds_per_image": 1,
+          "box_size": 128,
+          "seed": 42,
+          "base_val_dice": 0.7373602787653605,
+          "best_val_dice": 0.7182326515515646,
+          "test_metrics": {
+            "loss": 0.25066855549812317,
+            "dice": 0.6826680064201355,
+            "iou": 0.5208022773265839,
+            "sensitivity": 0.6221321821212769,
+            "specificity": 0.9848126530647278
+          },
+          "final_coverage": 0.035874483870285086,
+          "iteration_log_val": [
+            {
+              "iteration": 1,
+              "coverage": 0.006433070870835605,
+              "val_dice": 0.3982086678345998
+            },
+            {
+              "iteration": 2,
+              "coverage": 0.008457168945988086,
+              "val_dice": 0.7182326515515646
+            },
+            {
+              "iteration": 3,
+              "coverage": 0.011338955904571629,
+              "val_dice": 0.6982526580492655
+            },
+            {
+              "iteration": 4,
+              "coverage": 0.014236398512199185,
+              "val_dice": 0.688013474146525
+            },
+            {
+              "iteration": 5,
+              "coverage": 0.01731536766259744,
+              "val_dice": 0.6783851981163025
+            },
+            {
+              "iteration": 6,
+              "coverage": 0.02063078852906645,
+              "val_dice": 0.6913217703501383
+            },
+            {
+              "iteration": 7,
+              "coverage": 0.024158581516229863,
+              "val_dice": 0.6827882925669352
+            },
+            {
+              "iteration": 8,
+              "coverage": 0.027880009770436472,
+              "val_dice": 0.6588682929674784
+            },
+            {
+              "iteration": 9,
+              "coverage": 0.031790308042964885,
+              "val_dice": 0.6733022530873617
+            },
+            {
+              "iteration": 10,
+              "coverage": 0.035874483870285086,
+              "val_dice": 0.6835661927858988
+            }
+          ]
+        },
+        {
+          "seeding": "density_hist",
+          "growth": "uniform",
+          "schedule": null,
+          "n_seeds_per_image": 1,
+          "box_size": 128,
+          "seed": 42,
+          "base_val_dice": 0.6554778019587199,
+          "best_val_dice": 0.6664026578267416,
+          "test_metrics": {
+            "loss": 0.29461332559585574,
+            "dice": 0.6155934691429138,
+            "iou": 0.4471290290355682,
+            "sensitivity": 0.5369753122329712,
+            "specificity": 0.9851619362831116
+          },
+          "final_coverage": 0.0511179184082117,
+          "iteration_log_val": [
+            {
+              "iteration": 1,
+              "coverage": 0.005297727076955451,
+              "val_dice": 0.6489335894584656
+            },
+            {
+              "iteration": 2,
+              "coverage": 0.007392726389925064,
+              "val_dice": 0.5788697401682535
+            },
+            {
+              "iteration": 3,
+              "coverage": 0.00966958756418369,
+              "val_dice": 0.6178996562957764
+            },
+            {
+              "iteration": 4,
+              "coverage": 0.012201566518699298,
+              "val_dice": 0.616426924864451
+            },
+            {
+              "iteration": 5,
+              "coverage": 0.014958745390115526,
+              "val_dice": 0.32827354470888775
+            },
+            {
+              "iteration": 6,
+              "coverage": 0.01796180960525112,
+              "val_dice": 0.6664026578267416
+            },
+            {
+              "iteration": 7,
+              "coverage": 0.021710011180264555,
+              "val_dice": 0.6063251296679179
+            },
+            {
+              "iteration": 8,
+              "coverage": 0.025246377144212895,
+              "val_dice": 0.6005103786786398
+            },
+            {
+              "iteration": 9,
+              "coverage": 0.029008993689752578,
+              "val_dice": 0.6234054962793986
+            },
+            {
+              "iteration": 10,
+              "coverage": 0.03299499943219398,
+              "val_dice": 0.5740922590096792
+            },
+            {
+              "iteration": 11,
+              "coverage": 0.03720087352709478,
+              "val_dice": 0.5495417912801107
+            },
+            {
+              "iteration": 12,
+              "coverage": 0.04163895569592899,
+              "val_dice": 0.6007465322812399
+            },
+            {
+              "iteration": 13,
+              "coverage": 0.04627496893460216,
+              "val_dice": 0.6061103542645773
+            },
+            {
+              "iteration": 14,
+              "coverage": 0.0511179184082117,
+              "val_dice": 0.611748993396759
+            }
+          ]
+        },
+        {
+          "seeding": "density_per_image",
+          "growth": "uniform",
+          "schedule": null,
+          "n_seeds_per_image": 1,
+          "box_size": 128,
+          "seed": 42,
+          "base_val_dice": 0.6716362833976746,
+          "best_val_dice": 0.694199820359548,
+          "test_metrics": {
+            "loss": 0.2815830886363983,
+            "dice": 0.6571174383163452,
+            "iou": 0.49112346172332766,
+            "sensitivity": 0.6456035614013672,
+            "specificity": 0.9755408287048339
+          },
+          "final_coverage": 0.059139381923023385,
+          "iteration_log_val": [
+            {
+              "iteration": 1,
+              "coverage": 0.0057424078671387555,
+              "val_dice": 0.6813856760660807
+            },
+            {
+              "iteration": 2,
+              "coverage": 0.0080503232619547,
+              "val_dice": 0.6617313623428345
+            },
+            {
+              "iteration": 3,
+              "coverage": 0.01061767459439127,
+              "val_dice": 0.5813193023204803
+            },
+            {
+              "iteration": 4,
+              "coverage": 0.013489137468372013,
+              "val_dice": 0.681161642074585
+            },
+            {
+              "iteration": 5,
+              "coverage": 0.016596634773156278,
+              "val_dice": 0.6774945457776388
+            },
+            {
+              "iteration": 6,
+              "coverage": 0.019991086488630915,
+              "val_dice": 0.694199820359548
+            },
+            {
+              "iteration": 7,
+              "coverage": 0.024542159820853473,
+              "val_dice": 0.6404098272323608
+            },
+            {
+              "iteration": 8,
+              "coverage": 0.02865722220947184,
+              "val_dice": 0.6406155228614807
+            },
+            {
+              "iteration": 9,
+              "coverage": 0.03304582626804796,
+              "val_dice": 0.6327569683392843
+            },
+            {
+              "iteration": 10,
+              "coverage": 0.03771540861616581,
+              "val_dice": 0.5822994311650594
+            },
+            {
+              "iteration": 11,
+              "coverage": 0.04267872626056663,
+              "val_dice": 0.6556499799092611
+            },
+            {
+              "iteration": 12,
+              "coverage": 0.04791985902315307,
+              "val_dice": 0.644131084283193
+            },
+            {
+              "iteration": 13,
+              "coverage": 0.053395781812263954,
+              "val_dice": 0.6346516211827596
+            },
+            {
+              "iteration": 14,
+              "coverage": 0.059139381923023385,
+              "val_dice": 0.6431192557017008
+            }
+          ]
+        },
+        {
+          "seeding": "granulometry",
+          "growth": "uniform",
+          "schedule": null,
+          "n_seeds_per_image": 1,
+          "box_size": 128,
+          "seed": 42,
+          "base_val_dice": 0.6641584436098734,
+          "best_val_dice": 0.710857073465983,
+          "test_metrics": {
+            "loss": 0.3307065427303314,
+            "dice": 0.6733114957809448,
+            "iou": 0.5095064997673034,
+            "sensitivity": 0.6759403586387634,
+            "specificity": 0.9743873596191406
+          },
+          "final_coverage": 0.03307055787165438,
+          "iteration_log_val": [
+            {
+              "iteration": 1,
+              "coverage": 0.005792947819371515,
+              "val_dice": 0.710857073465983
+            },
+            {
+              "iteration": 2,
+              "coverage": 0.008168906793076284,
+              "val_dice": 0.7065802017847697
+            },
+            {
+              "iteration": 3,
+              "coverage": 0.010819674195585778,
+              "val_dice": 0.6912817557652792
+            },
+            {
+              "iteration": 4,
+              "coverage": 0.013788077653211502,
+              "val_dice": 0.6960665980974833
+            },
+            {
+              "iteration": 5,
+              "coverage": 0.017029449013552533,
+              "val_dice": 0.6616921822230021
+            },
+            {
+              "iteration": 6,
+              "coverage": 0.020577212081362282,
+              "val_dice": 0.654944101969401
+            },
+            {
+              "iteration": 7,
+              "coverage": 0.024445722214985966,
+              "val_dice": 0.6830668052037557
+            },
+            {
+              "iteration": 8,
+              "coverage": 0.028617565206039072,
+              "val_dice": 0.5264008442560831
+            },
+            {
+              "iteration": 9,
+              "coverage": 0.03307055787165438,
+              "val_dice": 0.6543771624565125
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mode": "compare",
+      "config": {
+        "data_dir": "data",
+        "output_dir": "outputs",
+        "seeding": "density_hist",
+        "growth": "uniform",
+        "schedule": "medium",
+        "compare": true,
+        "frontier": false,
+        "confidence_loop": false,
+        "feedback_rounds": 5,
+        "feedback_k": 1,
+        "feedback_epochs": 40,
+        "n_seeds": 1,
+        "box_size": 128,
+        "min_box": 64,
+        "max_box": 192,
+        "reseed_confidence": 0,
+        "expansion_pixels": 16,
+        "keep_fraction": 0.5,
+        "confidence_threshold": 0.7,
+        "pseudo_weight": 0.3,
+        "finetune_epochs": 15,
+        "max_iterations": 25,
+        "selflabel_patience": 8,
+        "image_size": 512,
+        "base_epochs": 120,
+        "base_patience": 20,
+        "lr": 0.001,
+        "val_fraction": 0.15,
+        "test_fraction": 0.2,
+        "seed": 7,
+        "seeds": [
+          42,
+          123,
+          7
+        ],
+        "deterministic": true,
+        "no_cuda": false
+      },
+      "results": [
+        {
+          "seeding": "random",
+          "growth": "uniform",
+          "schedule": null,
+          "n_seeds_per_image": 1,
+          "box_size": 128,
+          "seed": 123,
+          "base_val_dice": 0.7176278034845988,
+          "best_val_dice": 0.7204405466715494,
+          "test_metrics": {
+            "loss": 0.22299350202083587,
+            "dice": 0.7248144626617432,
+            "iou": 0.569621455669403,
+            "sensitivity": 0.7056650519371033,
+            "specificity": 0.9805588603019715
+          },
+          "final_coverage": 0.03703179475287621,
+          "iteration_log_val": [
+            {
+              "iteration": 1,
+              "coverage": 0.005874284914630886,
+              "val_dice": 0.7193896373112997
+            },
+            {
+              "iteration": 2,
+              "coverage": 0.008232863211802973,
+              "val_dice": 0.7204405466715494
+            },
+            {
+              "iteration": 3,
+              "coverage": 0.010932896356175628,
+              "val_dice": 0.6960957447687784
+            },
+            {
+              "iteration": 4,
+              "coverage": 0.01389284606137849,
+              "val_dice": 0.694668193658193
+            },
+            {
+              "iteration": 5,
+              "coverage": 0.017131512519005108,
+              "val_dice": 0.7025922934214274
+            },
+            {
+              "iteration": 6,
+              "coverage": 0.020625609720839138,
+              "val_dice": 0.6901111205418905
+            },
+            {
+              "iteration": 7,
+              "coverage": 0.02437174349832296,
+              "val_dice": 0.6948059995969137
+            },
+            {
+              "iteration": 8,
+              "coverage": 0.028362615085041246,
+              "val_dice": 0.6686981121699015
+            },
+            {
+              "iteration": 9,
+              "coverage": 0.03258219998157984,
+              "val_dice": 0.6815987229347229
+            },
+            {
+              "iteration": 10,
+              "coverage": 0.03703179475287621,
+              "val_dice": 0.6886260310808817
+            }
+          ]
+        },
+        {
+          "seeding": "frangi",
+          "growth": "uniform",
+          "schedule": null,
+          "n_seeds_per_image": 1,
+          "box_size": 128,
+          "seed": 123,
+          "base_val_dice": 0.6822520891825358,
+          "best_val_dice": 0.7081617911656698,
+          "test_metrics": {
+            "loss": 0.22291682958602904,
+            "dice": 0.7237317681312561,
+            "iou": 0.5680957794189453,
+            "sensitivity": 0.6932179093360901,
+            "specificity": 0.9821603298187256
+          },
+          "final_coverage": 0.03951188502956317,
+          "iteration_log_val": [
+            {
+              "iteration": 1,
+              "coverage": 0.0056848895639637215,
+              "val_dice": 0.7077351013819376
+            },
+            {
+              "iteration": 2,
+              "coverage": 0.007937127181694053,
+              "val_dice": 0.6853259603182474
+            },
+            {
+              "iteration": 3,
+              "coverage": 0.01044121508700845,
+              "val_dice": 0.7081617911656698
+            },
+            {
+              "iteration": 4,
+              "coverage": 0.013376496526547241,
+              "val_dice": 0.6860033869743347
+            },
+            {
+              "iteration": 5,
+              "coverage": 0.016499299258811946,
+              "val_dice": 0.6789374748865763
+            },
+            {
+              "iteration": 6,
+              "coverage": 0.019850893541884563,
+              "val_dice": 0.6832791169484457
+            },
+            {
+              "iteration": 7,
+              "coverage": 0.02342619743733195,
+              "val_dice": 0.5266125500202179
+            },
+            {
+              "iteration": 8,
+              "coverage": 0.02717904503670471,
+              "val_dice": 0.6779182553291321
+            },
+            {
+              "iteration": 9,
+              "coverage": 0.03112614265373758,
+              "val_dice": 0.671124001344045
+            },
+            {
+              "iteration": 10,
+              "coverage": 0.035236942771412025,
+              "val_dice": 0.676353931427002
+            },
+            {
+              "iteration": 11,
+              "coverage": 0.03951188502956317,
+              "val_dice": 0.6604070067405701
+            }
+          ]
+        },
+        {
+          "seeding": "density_hist",
+          "growth": "uniform",
+          "schedule": null,
+          "n_seeds_per_image": 1,
+          "box_size": 128,
+          "seed": 123,
+          "base_val_dice": 0.6159038345019022,
+          "best_val_dice": 0.6263934771219889,
+          "test_metrics": {
+            "loss": 0.28640127182006836,
+            "dice": 0.6349241018295289,
+            "iou": 0.4666575908660889,
+            "sensitivity": 0.5380400061607361,
+            "specificity": 0.9881721019744873
+          },
+          "final_coverage": 0.0395382261620575,
+          "iteration_log_val": [
+            {
+              "iteration": 1,
+              "coverage": 0.0051749706931615,
+              "val_dice": 0.6231441895167033
+            },
+            {
+              "iteration": 2,
+              "coverage": 0.007225856992166066,
+              "val_dice": 0.6239014665285746
+            },
+            {
+              "iteration": 3,
+              "coverage": 0.009519204660241865,
+              "val_dice": 0.5909020105997721
+            },
+            {
+              "iteration": 4,
+              "coverage": 0.012022774684733529,
+              "val_dice": 0.6263934771219889
+            },
+            {
+              "iteration": 5,
+              "coverage": 0.014855810056515328,
+              "val_dice": 0.5556696852048238
+            },
+            {
+              "iteration": 6,
+              "coverage": 0.017762816693437503,
+              "val_dice": 0.6120491027832031
+            },
+            {
+              "iteration": 7,
+              "coverage": 0.020889933857304532,
+              "val_dice": 0.4634927709897359
+            },
+            {
+              "iteration": 8,
+              "coverage": 0.024236800149268902,
+              "val_dice": 0.5929507911205292
+            },
+            {
+              "iteration": 9,
+              "coverage": 0.027754757126561728,
+              "val_dice": 0.6097136934598287
+            },
+            {
+              "iteration": 10,
+              "coverage": 0.03148166970142345,
+              "val_dice": 0.5880093971888224
+            },
+            {
+              "iteration": 11,
+              "coverage": 0.03540718770892207,
+              "val_dice": 0.5802687207857767
+            },
+            {
+              "iteration": 12,
+              "coverage": 0.0395382261620575,
+              "val_dice": 0.5687988102436066
+            }
+          ]
+        },
+        {
+          "seeding": "density_per_image",
+          "growth": "uniform",
+          "schedule": null,
+          "n_seeds_per_image": 1,
+          "box_size": 128,
+          "seed": 123,
+          "base_val_dice": 0.6486865083376566,
+          "best_val_dice": 0.6891889174779257,
+          "test_metrics": {
+            "loss": 0.24409972429275512,
+            "dice": 0.6970123529434205,
+            "iou": 0.5358835697174072,
+            "sensitivity": 0.6519311785697937,
+            "specificity": 0.9824999094009399
+          },
+          "final_coverage": 0.04212783519258758,
+          "iteration_log_val": [
+            {
+              "iteration": 1,
+              "coverage": 0.005722776830772046,
+              "val_dice": 0.6693882544835409
+            },
+            {
+              "iteration": 2,
+              "coverage": 0.008000997907910506,
+              "val_dice": 0.6888928810755411
+            },
+            {
+              "iteration": 3,
+              "coverage": 0.010677223437482768,
+              "val_dice": 0.6891889174779257
+            },
+            {
+              "iteration": 4,
+              "coverage": 0.013676416586612476,
+              "val_dice": 0.17203224201997122
+            },
+            {
+              "iteration": 5,
+              "coverage": 0.016837821931857913,
+              "val_dice": 0.6553950508435568
+            },
+            {
+              "iteration": 6,
+              "coverage": 0.020300786672147013,
+              "val_dice": 0.6636319557825724
+            },
+            {
+              "iteration": 7,
+              "coverage": 0.024075746664922015,
+              "val_dice": 0.6574496825536092
+            },
+            {
+              "iteration": 8,
+              "coverage": 0.028156651273807988,
+              "val_dice": 0.6342832446098328
+            },
+            {
+              "iteration": 9,
+              "coverage": 0.03251641421404767,
+              "val_dice": 0.6250506639480591
+            },
+            {
+              "iteration": 10,
+              "coverage": 0.037170776827195315,
+              "val_dice": 0.6128958861033121
+            },
+            {
+              "iteration": 11,
+              "coverage": 0.04212783519258758,
+              "val_dice": 0.6585773229598999
+            }
+          ]
+        },
+        {
+          "seeding": "granulometry",
+          "growth": "uniform",
+          "schedule": null,
+          "n_seeds_per_image": 1,
+          "box_size": 128,
+          "seed": 123,
+          "base_val_dice": 0.6746410131454468,
+          "best_val_dice": 0.6384432713190714,
+          "test_metrics": {
+            "loss": 0.32353733777999877,
+            "dice": 0.6598246812820434,
+            "iou": 0.4944099962711334,
+            "sensitivity": 0.664912748336792,
+            "specificity": 0.9711648344993591
+          },
+          "final_coverage": 0.03832533437217494,
+          "iteration_log_val": [
+            {
+              "iteration": 1,
+              "coverage": 0.005818022193018877,
+              "val_dice": 0.48989924788475037
+            },
+            {
+              "iteration": 2,
+              "coverage": 0.008106101634595811,
+              "val_dice": 0.6384432713190714
+            },
+            {
+              "iteration": 3,
+              "coverage": 0.010987758191533342,
+              "val_dice": 0.6131171186765035
+            },
+            {
+              "iteration": 4,
+              "coverage": 0.014005621130610586,
+              "val_dice": 0.6304277380307516
+            },
+            {
+              "iteration": 5,
+              "coverage": 0.01728277097685587,
+              "val_dice": 0.6099319259325663
+            },
+            {
+              "iteration": 6,
+              "coverage": 0.02087317165715008,
+              "val_dice": 0.5935014386971792
+            },
+            {
+              "iteration": 7,
+              "coverage": 0.02479001609230827,
+              "val_dice": 0.5921644767125448
+            },
+            {
+              "iteration": 8,
+              "coverage": 0.029007000407449256,
+              "val_dice": 0.631437361240387
+            },
+            {
+              "iteration": 9,
+              "coverage": 0.03351764550364692,
+              "val_dice": 0.6113269726435343
+            },
+            {
+              "iteration": 10,
+              "coverage": 0.03832533437217494,
+              "val_dice": 0.6132413744926453
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mode": "compare",
+      "config": {
+        "data_dir": "data",
+        "output_dir": "outputs",
+        "seeding": "density_hist",
+        "growth": "uniform",
+        "schedule": "medium",
+        "compare": true,
+        "frontier": false,
+        "confidence_loop": false,
+        "feedback_rounds": 5,
+        "feedback_k": 1,
+        "feedback_epochs": 40,
+        "n_seeds": 1,
+        "box_size": 128,
+        "min_box": 64,
+        "max_box": 192,
+        "reseed_confidence": 0,
+        "expansion_pixels": 16,
+        "keep_fraction": 0.5,
+        "confidence_threshold": 0.7,
+        "pseudo_weight": 0.3,
+        "finetune_epochs": 15,
+        "max_iterations": 25,
+        "selflabel_patience": 8,
+        "image_size": 512,
+        "base_epochs": 120,
+        "base_patience": 20,
+        "lr": 0.001,
+        "val_fraction": 0.15,
+        "test_fraction": 0.2,
+        "seed": 7,
+        "seeds": [
+          42,
+          123,
+          7
+        ],
+        "deterministic": true,
+        "no_cuda": false
+      },
+      "results": [
+        {
+          "seeding": "random",
+          "growth": "uniform",
+          "schedule": null,
+          "n_seeds_per_image": 1,
+          "box_size": 128,
+          "seed": 7,
+          "base_val_dice": 0.6995493570963541,
+          "best_val_dice": 0.7121047973632812,
+          "test_metrics": {
+            "loss": 0.22372713387012483,
+            "dice": 0.7290044307708741,
+            "iou": 0.5763429284095765,
+            "sensitivity": 0.7131159663200378,
+            "specificity": 0.9801280260086059
+          },
+          "final_coverage": 0.032838800614840034,
+          "iteration_log_val": [
+            {
+              "iteration": 1,
+              "coverage": 0.005883752074131324,
+              "val_dice": 0.7121047973632812
+            },
+            {
+              "iteration": 2,
+              "coverage": 0.008276711696714683,
+              "val_dice": 0.6969191431999207
+            },
+            {
+              "iteration": 3,
+              "coverage": 0.010942315080778977,
+              "val_dice": 0.69963538646698
+            },
+            {
+              "iteration": 4,
+              "coverage": 0.013873390135793568,
+              "val_dice": 0.6838089227676392
+            },
+            {
+              "iteration": 5,
+              "coverage": 0.017113677299592043,
+              "val_dice": 0.48326406876246136
+            },
+            {
+              "iteration": 6,
+              "coverage": 0.020656976905346885,
+              "val_dice": 0.6942100723584493
+            },
+            {
+              "iteration": 7,
+              "coverage": 0.02449392611487446,
+              "val_dice": 0.685711403687795
+            },
+            {
+              "iteration": 8,
+              "coverage": 0.028557654964100055,
+              "val_dice": 0.6780826648076376
+            },
+            {
+              "iteration": 9,
+              "coverage": 0.032838800614840034,
+              "val_dice": 0.671060045560201
+            }
+          ]
+        },
+        {
+          "seeding": "frangi",
+          "growth": "uniform",
+          "schedule": null,
+          "n_seeds_per_image": 1,
+          "box_size": 128,
+          "seed": 7,
+          "base_val_dice": 0.7015457153320312,
+          "best_val_dice": 0.7162672877311707,
+          "test_metrics": {
+            "loss": 0.22189385294914246,
+            "dice": 0.7328049659729003,
+            "iou": 0.5809040665626526,
+            "sensitivity": 0.7098780870437622,
+            "specificity": 0.9813674449920654
+          },
+          "final_coverage": 0.03146910643427057,
+          "iteration_log_val": [
+            {
+              "iteration": 1,
+              "coverage": 0.006738750957893234,
+              "val_dice": 0.7162672877311707
+            },
+            {
+              "iteration": 2,
+              "coverage": 0.009133972117594565,
+              "val_dice": 0.7120630741119385
+            },
+            {
+              "iteration": 3,
+              "coverage": 0.01175271660160494,
+              "val_dice": 0.7120671073595682
+            },
+            {
+              "iteration": 4,
+              "coverage": 0.014583043344911012,
+              "val_dice": 0.7145153284072876
+            },
+            {
+              "iteration": 5,
+              "coverage": 0.017606725923161686,
+              "val_dice": 0.7048462430636088
+            },
+            {
+              "iteration": 6,
+              "coverage": 0.02082903256285583,
+              "val_dice": 0.6990482409795126
+            },
+            {
+              "iteration": 7,
+              "coverage": 0.024208644571014352,
+              "val_dice": 0.7021243969599406
+            },
+            {
+              "iteration": 8,
+              "coverage": 0.027772651958155824,
+              "val_dice": 0.6899908781051636
+            },
+            {
+              "iteration": 9,
+              "coverage": 0.03146910643427057,
+              "val_dice": 0.6934584577878317
+            }
+          ]
+        },
+        {
+          "seeding": "density_hist",
+          "growth": "uniform",
+          "schedule": null,
+          "n_seeds_per_image": 1,
+          "box_size": 128,
+          "seed": 7,
+          "base_val_dice": 0.6027588446935018,
+          "best_val_dice": 0.6394201715787252,
+          "test_metrics": {
+            "loss": 0.274480938911438,
+            "dice": 0.6696810960769654,
+            "iou": 0.5056960165500641,
+            "sensitivity": 0.6311429500579834,
+            "specificity": 0.9792445421218872
+          },
+          "final_coverage": 0.03376588180275581,
+          "iteration_log_val": [
+            {
+              "iteration": 1,
+              "coverage": 0.0053898502512206336,
+              "val_dice": 0.6354455153147379
+            },
+            {
+              "iteration": 2,
+              "coverage": 0.007563899042002445,
+              "val_dice": 0.6394201715787252
+            },
+            {
+              "iteration": 3,
+              "coverage": 0.010052554843951704,
+              "val_dice": 0.6272110939025879
+            },
+            {
+              "iteration": 4,
+              "coverage": 0.012753690813673484,
+              "val_dice": 0.627532164255778
+            },
+            {
+              "iteration": 5,
+              "coverage": 0.01564481825587277,
+              "val_dice": 0.5942125717798868
+            },
+            {
+              "iteration": 6,
+              "coverage": 0.01878277738516533,
+              "val_dice": 0.6302688519159952
+            },
+            {
+              "iteration": 7,
+              "coverage": 0.02218031403100847,
+              "val_dice": 0.5841200351715088
+            },
+            {
+              "iteration": 8,
+              "coverage": 0.025824935715714276,
+              "val_dice": 0.6246771017710367
+            },
+            {
+              "iteration": 9,
+              "coverage": 0.02968387809428203,
+              "val_dice": 0.5926244854927063
+            },
+            {
+              "iteration": 10,
+              "coverage": 0.03376588180275581,
+              "val_dice": 0.553798496723175
+            }
+          ]
+        },
+        {
+          "seeding": "density_per_image",
+          "growth": "uniform",
+          "schedule": null,
+          "n_seeds_per_image": 1,
+          "box_size": 128,
+          "seed": 7,
+          "base_val_dice": 0.677450954914093,
+          "best_val_dice": 0.6726877689361572,
+          "test_metrics": {
+            "loss": 0.24900277554988862,
+            "dice": 0.6976652979850769,
+            "iou": 0.5389265477657318,
+            "sensitivity": 0.7467090129852295,
+            "specificity": 0.9673250555992127
+          },
+          "final_coverage": 0.0421780584551086,
+          "iteration_log_val": [
+            {
+              "iteration": 1,
+              "coverage": 0.005758786313877805,
+              "val_dice": 0.6588692466417948
+            },
+            {
+              "iteration": 2,
+              "coverage": 0.00803710798657176,
+              "val_dice": 0.47031020124753314
+            },
+            {
+              "iteration": 3,
+              "coverage": 0.010586165830953566,
+              "val_dice": 0.6726877689361572
+            },
+            {
+              "iteration": 4,
+              "coverage": 0.013648395135765252,
+              "val_dice": 0.6659048597017924
+            },
+            {
+              "iteration": 5,
+              "coverage": 0.016819863762321464,
+              "val_dice": 0.6411981781323751
+            },
+            {
+              "iteration": 6,
+              "coverage": 0.02029014589783247,
+              "val_dice": 0.6545272270838419
+            },
+            {
+              "iteration": 7,
+              "coverage": 0.02407495680352332,
+              "val_dice": 0.655322810014089
+            },
+            {
+              "iteration": 8,
+              "coverage": 0.02816035840631603,
+              "val_dice": 0.6226146618525187
+            },
+            {
+              "iteration": 9,
+              "coverage": 0.03252974126227005,
+              "val_dice": 0.6569029490152994
+            },
+            {
+              "iteration": 10,
+              "coverage": 0.03720519168445842,
+              "val_dice": 0.6445870200792948
+            },
+            {
+              "iteration": 11,
+              "coverage": 0.0421780584551086,
+              "val_dice": 0.6512696544329325
+            }
+          ]
+        },
+        {
+          "seeding": "granulometry",
+          "growth": "uniform",
+          "schedule": null,
+          "n_seeds_per_image": 1,
+          "box_size": 128,
+          "seed": 7,
+          "base_val_dice": 0.6270524064699808,
+          "best_val_dice": 0.6419277191162109,
+          "test_metrics": {
+            "loss": 0.45250468254089354,
+            "dice": 0.6614904642105103,
+            "iou": 0.4963333785533905,
+            "sensitivity": 0.666129982471466,
+            "specificity": 0.9713312149047851
+          },
+          "final_coverage": 0.03725851850615451,
+          "iteration_log_val": [
+            {
+              "iteration": 1,
+              "coverage": 0.005818100434006484,
+              "val_dice": 0.6158419648806254
+            },
+            {
+              "iteration": 2,
+              "coverage": 0.008174249534801442,
+              "val_dice": 0.6419277191162109
+            },
+            {
+              "iteration": 3,
+              "coverage": 0.010986238080916979,
+              "val_dice": 0.6331578294436137
+            },
+            {
+              "iteration": 4,
+              "coverage": 0.013954634087020074,
+              "val_dice": 0.6211638649304708
+            },
+            {
+              "iteration": 5,
+              "coverage": 0.01718090866251428,
+              "val_dice": 0.5921395023663839
+            },
+            {
+              "iteration": 6,
+              "coverage": 0.020690363452487155,
+              "val_dice": 0.6246233781178793
+            },
+            {
+              "iteration": 7,
+              "coverage": 0.024478065548958143,
+              "val_dice": 0.6118816137313843
+            },
+            {
+              "iteration": 8,
+              "coverage": 0.0285153750247018,
+              "val_dice": 0.6107205351193746
+            },
+            {
+              "iteration": 9,
+              "coverage": 0.032783480510840624,
+              "val_dice": 0.6149776776631674
+            },
+            {
+              "iteration": 10,
+              "coverage": 0.03725851850615451,
+              "val_dice": 0.6040393114089966
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

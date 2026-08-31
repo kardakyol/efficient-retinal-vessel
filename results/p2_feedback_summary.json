@@ -1,0 +1,311 @@
+{
+  "summary": {
+    "mode": "confidence_loop",
+    "seeds_run": 3,
+    "confidence_test_dice": {
+      "mean": 0.749266795317332,
+      "std": 0.00425755882403919,
+      "n": 3,
+      "values": [
+        0.7445549368858337,
+        0.7528374671936036,
+        0.7504079818725586
+      ]
+    },
+    "random_control_test_dice": {
+      "mean": 0.7416925668716431,
+      "std": 0.002252411561209456,
+      "n": 3,
+      "values": [
+        0.7423598766326904,
+        0.7435359239578248,
+        0.7391819000244141
+      ]
+    },
+    "delta_conf_minus_rand": {
+      "mean": 0.007574228445688891,
+      "std": 0.004756842445403487,
+      "n": 3,
+      "values": [
+        0.0021950602531433105,
+        0.009301543235778809,
+        0.011226081848144553
+      ]
+    }
+  },
+  "per_seed": [
+    {
+      "mode": "confidence_loop",
+      "feedback_rounds": 5,
+      "feedback_k": 1,
+      "base_val_dice": 0.7421398957570394,
+      "confidence": {
+        "best_val_dice": 0.7688066363334656,
+        "test_metrics": {
+          "loss": 0.20717164874076843,
+          "dice": 0.7445549368858337,
+          "iou": 0.5959132552146912,
+          "sensitivity": 0.7445729613304138,
+          "specificity": 0.9804344534873962
+        },
+        "rounds_log_val": [
+          {
+            "round": 0,
+            "boxes": 63,
+            "val_dice": 0.7421398957570394
+          },
+          {
+            "round": 1,
+            "boxes": 126,
+            "val_dice": 0.7502326170603434
+          },
+          {
+            "round": 2,
+            "boxes": 189,
+            "val_dice": 0.7502893606821696
+          },
+          {
+            "round": 3,
+            "boxes": 252,
+            "val_dice": 0.753584067026774
+          },
+          {
+            "round": 4,
+            "boxes": 315,
+            "val_dice": 0.761722187201182
+          },
+          {
+            "round": 5,
+            "boxes": 378,
+            "val_dice": 0.7688066363334656
+          }
+        ]
+      },
+      "random_control": {
+        "best_val_dice": 0.7707762519518534,
+        "test_metrics": {
+          "loss": 0.2050038605928421,
+          "dice": 0.7423598766326904,
+          "iou": 0.5924243092536926,
+          "sensitivity": 0.7473166584968567,
+          "specificity": 0.9795086622238159
+        },
+        "rounds_log_val": [
+          {
+            "round": 0,
+            "boxes": 63,
+            "val_dice": 0.7421398957570394
+          },
+          {
+            "round": 1,
+            "boxes": 126,
+            "val_dice": 0.7548994223276774
+          },
+          {
+            "round": 2,
+            "boxes": 189,
+            "val_dice": 0.7539747754732767
+          },
+          {
+            "round": 3,
+            "boxes": 252,
+            "val_dice": 0.7695064345995585
+          },
+          {
+            "round": 4,
+            "boxes": 315,
+            "val_dice": 0.7660284439722697
+          },
+          {
+            "round": 5,
+            "boxes": 378,
+            "val_dice": 0.7707762519518534
+          }
+        ]
+      },
+      "test_delta_conf_minus_rand": 0.0021950602531433105
+    },
+    {
+      "mode": "confidence_loop",
+      "feedback_rounds": 5,
+      "feedback_k": 1,
+      "base_val_dice": 0.6886675556500753,
+      "confidence": {
+        "best_val_dice": 0.7453000942866007,
+        "test_metrics": {
+          "loss": 0.20501703917980194,
+          "dice": 0.7528374671936036,
+          "iou": 0.6057799100875855,
+          "sensitivity": 0.7722281694412232,
+          "specificity": 0.9774841070175171
+        },
+        "rounds_log_val": [
+          {
+            "round": 0,
+            "boxes": 63,
+            "val_dice": 0.6886675556500753
+          },
+          {
+            "round": 1,
+            "boxes": 126,
+            "val_dice": 0.7007384498914083
+          },
+          {
+            "round": 2,
+            "boxes": 189,
+            "val_dice": 0.7181487480799357
+          },
+          {
+            "round": 3,
+            "boxes": 252,
+            "val_dice": 0.7303305864334106
+          },
+          {
+            "round": 4,
+            "boxes": 315,
+            "val_dice": 0.7453000942866007
+          },
+          {
+            "round": 5,
+            "boxes": 378,
+            "val_dice": 0.741148849328359
+          }
+        ]
+      },
+      "random_control": {
+        "best_val_dice": 0.7373493512471517,
+        "test_metrics": {
+          "loss": 0.20772696435451507,
+          "dice": 0.7435359239578248,
+          "iou": 0.5940945386886597,
+          "sensitivity": 0.7627702116966247,
+          "specificity": 0.9766677498817444
+        },
+        "rounds_log_val": [
+          {
+            "round": 0,
+            "boxes": 63,
+            "val_dice": 0.6886675556500753
+          },
+          {
+            "round": 1,
+            "boxes": 126,
+            "val_dice": 0.698782722155253
+          },
+          {
+            "round": 2,
+            "boxes": 189,
+            "val_dice": 0.7080225547154745
+          },
+          {
+            "round": 3,
+            "boxes": 252,
+            "val_dice": 0.7111350099245707
+          },
+          {
+            "round": 4,
+            "boxes": 315,
+            "val_dice": 0.7325175007184347
+          },
+          {
+            "round": 5,
+            "boxes": 378,
+            "val_dice": 0.7373493512471517
+          }
+        ]
+      },
+      "test_delta_conf_minus_rand": 0.009301543235778809
+    },
+    {
+      "mode": "confidence_loop",
+      "feedback_rounds": 5,
+      "feedback_k": 1,
+      "base_val_dice": 0.6850034793217977,
+      "confidence": {
+        "best_val_dice": 0.732789138952891,
+        "test_metrics": {
+          "loss": 0.205869397521019,
+          "dice": 0.7504079818725586,
+          "iou": 0.6039813399314881,
+          "sensitivity": 0.767997944355011,
+          "specificity": 0.9767752885818481
+        },
+        "rounds_log_val": [
+          {
+            "round": 0,
+            "boxes": 63,
+            "val_dice": 0.6850034793217977
+          },
+          {
+            "round": 1,
+            "boxes": 126,
+            "val_dice": 0.7078157464663187
+          },
+          {
+            "round": 2,
+            "boxes": 189,
+            "val_dice": 0.7227967182795206
+          },
+          {
+            "round": 3,
+            "boxes": 252,
+            "val_dice": 0.7268857558568319
+          },
+          {
+            "round": 4,
+            "boxes": 315,
+            "val_dice": 0.7298624515533447
+          },
+          {
+            "round": 5,
+            "boxes": 378,
+            "val_dice": 0.732789138952891
+          }
+        ]
+      },
+      "random_control": {
+        "best_val_dice": 0.7243649164835612,
+        "test_metrics": {
+          "loss": 0.21143926680088043,
+          "dice": 0.7391819000244141,
+          "iou": 0.5898494958877564,
+          "sensitivity": 0.7451545596122742,
+          "specificity": 0.9772549033164978
+        },
+        "rounds_log_val": [
+          {
+            "round": 0,
+            "boxes": 63,
+            "val_dice": 0.6850034793217977
+          },
+          {
+            "round": 1,
+            "boxes": 126,
+            "val_dice": 0.7101618647575378
+          },
+          {
+            "round": 2,
+            "boxes": 189,
+            "val_dice": 0.7218260566393534
+          },
+          {
+            "round": 3,
+            "boxes": 252,
+            "val_dice": 0.7209306756655375
+          },
+          {
+            "round": 4,
+            "boxes": 315,
+            "val_dice": 0.7091995676358541
+          },
+          {
+            "round": 5,
+            "boxes": 378,
+            "val_dice": 0.7243649164835612
+          }
+        ]
+      },
+      "test_delta_conf_minus_rand": 0.011226081848144553
+    }
+  ]
+}

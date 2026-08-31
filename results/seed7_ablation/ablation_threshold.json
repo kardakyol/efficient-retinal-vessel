@@ -1,0 +1,23 @@
+{
+  "0.3": {
+    "best_dice": 0.6859602808952332,
+    "best_iou": 0.5249636232852936,
+    "best_iteration": 2,
+    "final_coverage": 0.038455143622137464,
+    "n_iterations": 10
+  },
+  "0.5": {
+    "best_dice": 0.6859602808952332,
+    "best_iou": 0.5249636232852936,
+    "best_iteration": 2,
+    "final_coverage": 0.038455143622137464,
+    "n_iterations": 10
+  },
+  "0.7": {
+    "best_dice": 0.6931935787200928,
+    "best_iou": 0.5339168548583985,
+    "best_iteration": 1,
+    "final_coverage": 0.03267684549625501,
+    "n_iterations": 9
+  }
+}

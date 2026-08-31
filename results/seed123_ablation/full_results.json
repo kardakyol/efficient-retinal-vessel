@@ -1,0 +1,275 @@
+{
+  "full_supervision": {
+    "loss": 0.21907928586006165,
+    "dice": 0.7249598860740661,
+    "iou": 0.5703236103057862,
+    "sensitivity": 0.7592507481575013,
+    "specificity": 0.972948145866394
+  },
+  "sparse_baseline": {
+    "loss": 0.24491622745990754,
+    "dice": 0.6977459073066712,
+    "iou": 0.539215725660324,
+    "sensitivity": 0.7439543247222901,
+    "specificity": 0.9685019493103028
+  },
+  "self_labelling": {
+    "loss": 0.23771284222602845,
+    "dice": 0.7049526929855346,
+    "iou": 0.5456964552402497,
+    "sensitivity": 0.653361713886261,
+    "specificity": 0.9841308355331421
+  },
+  "config": {
+    "patch_size": 128,
+    "expansion_pixels": 16,
+    "confidence_threshold": 0.7,
+    "pseudo_weight": 0.5,
+    "annotation_coverage": 0.0038457010228556084,
+    "n_iterations": 11
+  },
+  "iteration_log": [
+    {
+      "iteration": 1,
+      "coverage": 0.0058797058973436515,
+      "val_dice": 0.6982788840929667,
+      "val_iou": 0.5378206570943197,
+      "val_sensitivity": 0.6748275955518087,
+      "val_specificity": 0.9801904161771139,
+      "val_loss": 0.24350719650586447,
+      "train_loss": 0.06546312446395557,
+      "expansion_stats": {
+        "ring_pixels": 559974,
+        "confident_pixels": 545930,
+        "skipped_pixels": 14044,
+        "new_vessel_pixels": 45965,
+        "confidence_rate": 0.9749202641551215
+      },
+      "per_dataset": {
+        "CHASE": 0.7241047620773315,
+        "DRIVE": 0.7135947942733765,
+        "HRF": 0.6804588139057159
+      }
+    },
+    {
+      "iteration": 2,
+      "coverage": 0.008247796063151952,
+      "val_dice": 0.6867749293645223,
+      "val_iou": 0.524351437886556,
+      "val_sensitivity": 0.6501160462697347,
+      "val_specificity": 0.9822772145271301,
+      "val_loss": 0.24718273679415384,
+      "train_loss": 0.04025444978227218,
+      "expansion_stats": {
+        "ring_pixels": 660062,
+        "confident_pixels": 635599,
+        "skipped_pixels": 24463,
+        "new_vessel_pixels": 44202,
+        "confidence_rate": 0.9629383300356633
+      },
+      "per_dataset": {
+        "CHASE": 0.7192128896713257,
+        "DRIVE": 0.6930996775627136,
+        "HRF": 0.6608996689319611
+      }
+    },
+    {
+      "iteration": 3,
+      "coverage": 0.010892490474718623,
+      "val_dice": 0.7010534803072611,
+      "val_iou": 0.5403321385383606,
+      "val_sensitivity": 0.65492844581604,
+      "val_specificity": 0.9841210246086121,
+      "val_loss": 0.23675095041592917,
+      "train_loss": 0.038876945773760475,
+      "expansion_stats": {
+        "ring_pixels": 759561,
+        "confident_pixels": 709840,
+        "skipped_pixels": 49721,
+        "new_vessel_pixels": 48231,
+        "confidence_rate": 0.9345398197116492
+      },
+      "per_dataset": {
+        "CHASE": 0.7113398313522339,
+        "DRIVE": 0.7172203063964844,
+        "HRF": 0.6898052096366882
+      }
+    },
+    {
+      "iteration": 4,
+      "coverage": 0.013984592933750897,
+      "val_dice": 0.6863674720128378,
+      "val_iou": 0.5232522388299307,
+      "val_sensitivity": 0.6582406163215637,
+      "val_specificity": 0.9805163542429606,
+      "val_loss": 0.2526131272315979,
+      "train_loss": 0.021307084437770147,
+      "expansion_stats": {
+        "ring_pixels": 868775,
+        "confident_pixels": 829925,
+        "skipped_pixels": 38850,
+        "new_vessel_pixels": 63781,
+        "confidence_rate": 0.9552818623924492
+      },
+      "per_dataset": {
+        "CHASE": 0.7045031189918518,
+        "DRIVE": 0.7103124260902405,
+        "HRF": 0.6669827997684479
+      }
+    },
+    {
+      "iteration": 5,
+      "coverage": 0.017242525303135393,
+      "val_dice": 0.6748472054799398,
+      "val_iou": 0.5099013845125834,
+      "val_sensitivity": 0.605881949265798,
+      "val_specificity": 0.9860166509946188,
+      "val_loss": 0.2598620305458705,
+      "train_loss": 0.021905670427562047,
+      "expansion_stats": {
+        "ring_pixels": 935201,
+        "confident_pixels": 874434,
+        "skipped_pixels": 60767,
+        "new_vessel_pixels": 59711,
+        "confidence_rate": 0.9350225245695845
+      },
+      "per_dataset": {
+        "CHASE": 0.6903693675994873,
+        "DRIVE": 0.6853172779083252,
+        "HRF": 0.6618693470954895
+      }
+    },
+    {
+      "iteration": 6,
+      "coverage": 0.020762803429727222,
+      "val_dice": 0.6169079542160034,
+      "val_iou": 0.4471522668997447,
+      "val_sensitivity": 0.5456338326136271,
+      "val_specificity": 0.9835864901542664,
+      "val_loss": 0.3011995851993561,
+      "train_loss": 0.020162280697453145,
+      "expansion_stats": {
+        "ring_pixels": 1030424,
+        "confident_pixels": 944848,
+        "skipped_pixels": 85576,
+        "new_vessel_pixels": 64484,
+        "confidence_rate": 0.9169506921422638
+      },
+      "per_dataset": {
+        "CHASE": 0.6441622972488403,
+        "DRIVE": 0.6458998918533325,
+        "HRF": 0.5880759358406067
+      }
+    },
+    {
+      "iteration": 7,
+      "coverage": 0.024543817784638478,
+      "val_dice": 0.6781660517056783,
+      "val_iou": 0.5137693782647451,
+      "val_sensitivity": 0.6281206210454305,
+      "val_specificity": 0.9833137591679891,
+      "val_loss": 0.2574786792198817,
+      "train_loss": 0.014152714080410078,
+      "expansion_stats": {
+        "ring_pixels": 1127065,
+        "confident_pixels": 1014830,
+        "skipped_pixels": 112235,
+        "new_vessel_pixels": 64402,
+        "confidence_rate": 0.9004183432188916
+      },
+      "per_dataset": {
+        "CHASE": 0.6972692608833313,
+        "DRIVE": 0.7059061527252197,
+        "HRF": 0.6568685472011566
+      }
+    },
+    {
+      "iteration": 8,
+      "coverage": 0.028556406834059658,
+      "val_dice": 0.6727124055226644,
+      "val_iou": 0.507348875204722,
+      "val_sensitivity": 0.6091341376304626,
+      "val_specificity": 0.9850035111109415,
+      "val_loss": 0.2625785271326701,
+      "train_loss": 0.016413715260569006,
+      "expansion_stats": {
+        "ring_pixels": 1216708,
+        "confident_pixels": 1076985,
+        "skipped_pixels": 139723,
+        "new_vessel_pixels": 64531,
+        "confidence_rate": 0.8851630793912755
+      },
+      "per_dataset": {
+        "CHASE": 0.6857053637504578,
+        "DRIVE": 0.6823558807373047,
+        "HRF": 0.6611500382423401
+      }
+    },
+    {
+      "iteration": 9,
+      "coverage": 0.03280180753074722,
+      "val_dice": 0.6767563819885254,
+      "val_iou": 0.5124181012312571,
+      "val_sensitivity": 0.6415985623995463,
+      "val_specificity": 0.9808893203735352,
+      "val_loss": 0.26139581700166065,
+      "train_loss": 0.015002538479166105,
+      "expansion_stats": {
+        "ring_pixels": 1307910,
+        "confident_pixels": 1139472,
+        "skipped_pixels": 168438,
+        "new_vessel_pixels": 69226,
+        "confidence_rate": 0.8712159093515609
+      },
+      "per_dataset": {
+        "CHASE": 0.7034329771995544,
+        "DRIVE": 0.7012454271316528,
+        "HRF": 0.6529211699962616
+      }
+    },
+    {
+      "iteration": 10,
+      "coverage": 0.03727526207750239,
+      "val_dice": 0.639915664990743,
+      "val_iou": 0.47113126516342163,
+      "val_sensitivity": 0.577609101931254,
+      "val_specificity": 0.9832582275072733,
+      "val_loss": 0.2871808707714081,
+      "train_loss": 0.013976585110261416,
+      "expansion_stats": {
+        "ring_pixels": 1398794,
+        "confident_pixels": 1200682,
+        "skipped_pixels": 198112,
+        "new_vessel_pixels": 80250,
+        "confidence_rate": 0.8583694239466283
+      },
+      "per_dataset": {
+        "CHASE": 0.6575272083282471,
+        "DRIVE": 0.6635352373123169,
+        "HRF": 0.6215939819812775
+      }
+    },
+    {
+      "iteration": 11,
+      "coverage": 0.04199189333950121,
+      "val_dice": 0.646682858467102,
+      "val_iou": 0.4785663882891337,
+      "val_sensitivity": 0.5856568614641825,
+      "val_specificity": 0.9830494523048401,
+      "val_loss": 0.2828654845555623,
+      "train_loss": 0.014199559896951541,
+      "expansion_stats": {
+        "ring_pixels": 1497657,
+        "confident_pixels": 1265951,
+        "skipped_pixels": 231706,
+        "new_vessel_pixels": 89029,
+        "confidence_rate": 0.8452876726780565
+      },
+      "per_dataset": {
+        "CHASE": 0.6590741276741028,
+        "DRIVE": 0.6863003969192505,
+        "HRF": 0.6259897649288177
+      }
+    }
+  ]
+}

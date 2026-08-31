@@ -1,0 +1,21 @@
+# datasets (see README for download link)
+data/
+
+# experiment output
+outputs/
+outputs_new/
+outputs_phase2/
+figures_new/
+*.pth
+*.pt
+*.ckpt
+
+# python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# os
+.DS_Store

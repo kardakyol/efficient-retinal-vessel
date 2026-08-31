@@ -1,0 +1,96 @@
+{
+  "run_id": "repeat_nondet_split42_seed42_r0",
+  "model_seed": 42,
+  "split_seed": 42,
+  "repeat": 0,
+  "deterministic": false,
+  "arms": [
+    "full",
+    "sparse"
+  ],
+  "n_train": 63,
+  "n_val": 12,
+  "n_test": 18,
+  "test_ids": [
+    "CHASE/Image_06R",
+    "CHASE/Image_10R",
+    "CHASE/Image_11L",
+    "CHASE/Image_12R",
+    "CHASE/Image_14L",
+    "DRIVE/22_training",
+    "DRIVE/25_training",
+    "DRIVE/33_training",
+    "DRIVE/36_training",
+    "HRF/01_h",
+    "HRF/02_g",
+    "HRF/04_h",
+    "HRF/06_h",
+    "HRF/07_h",
+    "HRF/08_g",
+    "HRF/09_dr",
+    "HRF/10_dr",
+    "HRF/15_g"
+  ],
+  "full_supervision": {
+    "loss": 0.21225766241550445,
+    "dice": 0.737963855266571,
+    "iou": 0.586087429523468,
+    "sensitivity": 0.7143534183502197,
+    "specificity": 0.9819977879524231
+  },
+  "full_supervision_per_dataset": {
+    "CHASE": {
+      "loss": 0.18689095973968506,
+      "dice": 0.7617445588111877,
+      "iou": 0.6154107451438904,
+      "sensitivity": 0.7571242451667786,
+      "specificity": 0.9835559129714966
+    },
+    "DRIVE": {
+      "loss": 0.21296782791614532,
+      "dice": 0.7386486530303955,
+      "iou": 0.5871976613998413,
+      "sensitivity": 0.6465140581130981,
+      "specificity": 0.9898989796638489
+    },
+    "HRF": {
+      "loss": 0.23216861486434937,
+      "dice": 0.7177561521530151,
+      "iou": 0.56057341893514,
+      "sensitivity": 0.710134486357371,
+      "specificity": 0.976800282796224
+    }
+  },
+  "annotation_coverage": 0.0038457010228556084,
+  "sparse_baseline": {
+    "loss": 0.2771539747714996,
+    "dice": 0.6654663920402527,
+    "iou": 0.5011949956417083,
+    "sensitivity": 0.6929640173912048,
+    "specificity": 0.9651798486709595
+  },
+  "sparse_baseline_per_dataset": {
+    "CHASE": {
+      "loss": 0.23014014959335327,
+      "dice": 0.700601190328598,
+      "iou": 0.5395374298095703,
+      "sensitivity": 0.6734654605388641,
+      "specificity": 0.9823548197746277
+    },
+    "DRIVE": {
+      "loss": 0.25325942039489746,
+      "dice": 0.6995789408683777,
+      "iou": 0.5387240648269653,
+      "sensitivity": 0.6383190155029297,
+      "specificity": 0.9811256527900696
+    },
+    "HRF": {
+      "loss": 0.33110060294469196,
+      "dice": 0.6118431687355042,
+      "iou": 0.4416029949982961,
+      "sensitivity": 0.7230952580769857,
+      "specificity": 0.9437825282414755
+    }
+  },
+  "wall_clock_seconds": 280.28240847587585
+}

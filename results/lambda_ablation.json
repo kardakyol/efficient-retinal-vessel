@@ -1,0 +1,51 @@
+{
+  "sparse_baseline": {
+    "loss": 0.26017189025878906,
+    "dice": 0.6861833930015564,
+    "iou": 0.5247714817523956,
+    "sensitivity": 0.701166319847107,
+    "specificity": 0.9710265278816224
+  },
+  "lambda_results": {
+    "0.1": {
+      "best_dice": 0.6984274506568908,
+      "best_iou": 0.5378719568252563,
+      "best_sensitivity": 0.6830922842025757,
+      "best_specificity": 0.9775063395500183,
+      "best_iteration": 2,
+      "n_iterations": 10
+    },
+    "0.3": {
+      "best_dice": 0.7184259414672851,
+      "best_iou": 0.562064814567566,
+      "best_sensitivity": 0.6887475609779358,
+      "best_specificity": 0.9810061693191529,
+      "best_iteration": 5,
+      "n_iterations": 13
+    },
+    "0.5": {
+      "best_dice": 0.7076482653617859,
+      "best_iou": 0.5489341259002686,
+      "best_sensitivity": 0.6858049035072327,
+      "best_specificity": 0.9790220618247986,
+      "best_iteration": 1,
+      "n_iterations": 9
+    },
+    "0.7": {
+      "best_dice": 0.7140597820281982,
+      "best_iou": 0.5566585183143615,
+      "best_sensitivity": 0.6827420592308044,
+      "best_specificity": 0.9809863686561584,
+      "best_iteration": 1,
+      "n_iterations": 9
+    },
+    "1.0": {
+      "best_dice": 0.7087071418762207,
+      "best_iou": 0.5500168085098267,
+      "best_sensitivity": 0.6395512700080872,
+      "best_specificity": 0.9864522099494935,
+      "best_iteration": 1,
+      "n_iterations": 9
+    }
+  }
+}

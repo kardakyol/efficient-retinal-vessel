@@ -1,0 +1,261 @@
+{
+  "rows": [
+    {
+      "config": "HRF-like: 3504 px source, 128 px box",
+      "grid": 512,
+      "box": 19,
+      "N": 1,
+      "pairwise_s": 0.002404175999799918,
+      "boxfilter_s": 0.0062024100000144244,
+      "ratio_pairwise_over_boxfilter": 0.3876196510379557,
+      "pairwise_placed": 1.0,
+      "boxfilter_placed": 1.0
+    },
+    {
+      "config": "HRF-like: 3504 px source, 128 px box",
+      "grid": 512,
+      "box": 19,
+      "N": 9,
+      "pairwise_s": 0.0018232850000003964,
+      "boxfilter_s": 0.05261069900006987,
+      "ratio_pairwise_over_boxfilter": 0.034656163758591665,
+      "pairwise_placed": 9.0,
+      "boxfilter_placed": 9.0
+    },
+    {
+      "config": "HRF-like: 3504 px source, 128 px box",
+      "grid": 512,
+      "box": 19,
+      "N": 25,
+      "pairwise_s": 0.0025064240001029248,
+      "boxfilter_s": 0.14681275900011315,
+      "ratio_pairwise_over_boxfilter": 0.017072249150368417,
+      "pairwise_placed": 25.0,
+      "boxfilter_placed": 25.0
+    },
+    {
+      "config": "HRF-like: 3504 px source, 128 px box",
+      "grid": 512,
+      "box": 19,
+      "N": 100,
+      "pairwise_s": 0.002511160000040036,
+      "boxfilter_s": 0.593489745999932,
+      "ratio_pairwise_over_boxfilter": 0.004231176725402639,
+      "pairwise_placed": 100.0,
+      "boxfilter_placed": 100.0
+    },
+    {
+      "config": "HRF-like: 3504 px source, 128 px box",
+      "grid": 512,
+      "box": 19,
+      "N": 256,
+      "pairwise_s": 0.011107043000038175,
+      "boxfilter_s": 1.5466879949999566,
+      "ratio_pairwise_over_boxfilter": 0.007181178774222326,
+      "pairwise_placed": 256.0,
+      "boxfilter_placed": 256.0
+    },
+    {
+      "config": "HRF-like: 3504 px source, 128 px box",
+      "grid": 512,
+      "box": 19,
+      "N": 441,
+      "pairwise_s": 0.4668190350000714,
+      "boxfilter_s": 2.495708752999917,
+      "ratio_pairwise_over_boxfilter": 0.18704868283967063,
+      "pairwise_placed": 398.0,
+      "boxfilter_placed": 413.0
+    },
+    {
+      "config": "HRF-like: 3504 px source, 128 px box",
+      "grid": 512,
+      "box": 19,
+      "N": 729,
+      "pairwise_s": 0.4699721019999288,
+      "boxfilter_s": 2.5095560600000226,
+      "ratio_pairwise_over_boxfilter": 0.18727300397502358,
+      "pairwise_placed": 398.0,
+      "boxfilter_placed": 413.0
+    },
+    {
+      "config": "CHASE_DB1-like: 999 px source, 128 px box",
+      "grid": 512,
+      "box": 48,
+      "N": 1,
+      "pairwise_s": 0.0012530020001122466,
+      "boxfilter_s": 0.004667677000043113,
+      "ratio_pairwise_over_boxfilter": 0.2684423108327061,
+      "pairwise_placed": 1.0,
+      "boxfilter_placed": 1.0
+    },
+    {
+      "config": "CHASE_DB1-like: 999 px source, 128 px box",
+      "grid": 512,
+      "box": 48,
+      "N": 9,
+      "pairwise_s": 0.002180325999916022,
+      "boxfilter_s": 0.05157456400002047,
+      "ratio_pairwise_over_boxfilter": 0.04227521923239441,
+      "pairwise_placed": 9.0,
+      "boxfilter_placed": 9.0
+    },
+    {
+      "config": "CHASE_DB1-like: 999 px source, 128 px box",
+      "grid": 512,
+      "box": 48,
+      "N": 25,
+      "pairwise_s": 0.0015193060000910918,
+      "boxfilter_s": 0.1436862220000421,
+      "ratio_pairwise_over_boxfilter": 0.010573776517630525,
+      "pairwise_placed": 25.0,
+      "boxfilter_placed": 25.0
+    },
+    {
+      "config": "CHASE_DB1-like: 999 px source, 128 px box",
+      "grid": 512,
+      "box": 48,
+      "N": 100,
+      "pairwise_s": 0.050890750000007756,
+      "boxfilter_s": 0.3599318010001298,
+      "ratio_pairwise_over_boxfilter": 0.1413899795978,
+      "pairwise_placed": 60.0,
+      "boxfilter_placed": 62.0
+    },
+    {
+      "config": "CHASE_DB1-like: 999 px source, 128 px box",
+      "grid": 512,
+      "box": 48,
+      "N": 256,
+      "pairwise_s": 0.04962946099999499,
+      "boxfilter_s": 0.36221636499999477,
+      "ratio_pairwise_over_boxfilter": 0.13701606496988536,
+      "pairwise_placed": 60.0,
+      "boxfilter_placed": 62.0
+    },
+    {
+      "config": "CHASE_DB1-like: 999 px source, 128 px box",
+      "grid": 512,
+      "box": 48,
+      "N": 441,
+      "pairwise_s": 0.050669446000028984,
+      "boxfilter_s": 0.3618388719999075,
+      "ratio_pairwise_over_boxfilter": 0.1400331747663693,
+      "pairwise_placed": 60.0,
+      "boxfilter_placed": 62.0
+    },
+    {
+      "config": "CHASE_DB1-like: 999 px source, 128 px box",
+      "grid": 512,
+      "box": 48,
+      "N": 729,
+      "pairwise_s": 0.0499101130001236,
+      "boxfilter_s": 0.3588570990000335,
+      "ratio_pairwise_over_boxfilter": 0.1390807458991328,
+      "pairwise_placed": 60.0,
+      "boxfilter_placed": 62.0
+    },
+    {
+      "config": "DRIVE-like: 584 px source, 128 px box",
+      "grid": 512,
+      "box": 112,
+      "N": 1,
+      "pairwise_s": 0.0014121760000307404,
+      "boxfilter_s": 0.004664295999873502,
+      "ratio_pairwise_over_boxfilter": 0.3027629464487329,
+      "pairwise_placed": 1.0,
+      "boxfilter_placed": 1.0
+    },
+    {
+      "config": "DRIVE-like: 584 px source, 128 px box",
+      "grid": 512,
+      "box": 112,
+      "N": 9,
+      "pairwise_s": 0.006743799000105355,
+      "boxfilter_s": 0.04658245199993871,
+      "ratio_pairwise_over_boxfilter": 0.1447712327404798,
+      "pairwise_placed": 9.0,
+      "boxfilter_placed": 9.0
+    },
+    {
+      "config": "DRIVE-like: 584 px source, 128 px box",
+      "grid": 512,
+      "box": 112,
+      "N": 25,
+      "pairwise_s": 0.025912188000120295,
+      "boxfilter_s": 0.05638491899981091,
+      "ratio_pairwise_over_boxfilter": 0.45955884055109125,
+      "pairwise_placed": 9.0,
+      "boxfilter_placed": 10.0
+    },
+    {
+      "config": "DRIVE-like: 584 px source, 128 px box",
+      "grid": 512,
+      "box": 112,
+      "N": 100,
+      "pairwise_s": 0.02528071100005036,
+      "boxfilter_s": 0.056509533999815176,
+      "ratio_pairwise_over_boxfilter": 0.4473707215517482,
+      "pairwise_placed": 9.0,
+      "boxfilter_placed": 10.0
+    },
+    {
+      "config": "DRIVE-like: 584 px source, 128 px box",
+      "grid": 512,
+      "box": 112,
+      "N": 256,
+      "pairwise_s": 0.02583203900007902,
+      "boxfilter_s": 0.05700264799997967,
+      "ratio_pairwise_over_boxfilter": 0.45317261401765463,
+      "pairwise_placed": 9.0,
+      "boxfilter_placed": 10.0
+    },
+    {
+      "config": "DRIVE-like: 584 px source, 128 px box",
+      "grid": 512,
+      "box": 112,
+      "N": 441,
+      "pairwise_s": 0.02528772100004062,
+      "boxfilter_s": 0.05643548199986981,
+      "ratio_pairwise_over_boxfilter": 0.4480819531247905,
+      "pairwise_placed": 9.0,
+      "boxfilter_placed": 10.0
+    },
+    {
+      "config": "DRIVE-like: 584 px source, 128 px box",
+      "grid": 512,
+      "box": 112,
+      "N": 729,
+      "pairwise_s": 0.025576677000117343,
+      "boxfilter_s": 0.056276284999967174,
+      "ratio_pairwise_over_boxfilter": 0.45448410463008104,
+      "pairwise_placed": 9.0,
+      "boxfilter_placed": 10.0
+    }
+  ],
+  "per_config": {
+    "HRF-like: 3504 px source, 128 px box": {
+      "box": 19,
+      "median_ratio_N100plus": 0.09711493080694648,
+      "extra_boxes_when_saturated": 15.0,
+      "max_occupancy": 1.0039100646972656,
+      "verdict": "box filter SLOWER"
+    },
+    "CHASE_DB1-like: 999 px source, 128 px box": {
+      "box": 48,
+      "median_ratio_N100plus": 0.13955696033275106,
+      "extra_boxes_when_saturated": 2.0,
+      "max_occupancy": 6.4072265625,
+      "verdict": "box filter SLOWER"
+    },
+    "DRIVE-like: 584 px source, 128 px box": {
+      "box": 112,
+      "median_ratio_N100plus": 0.45062728357122256,
+      "extra_boxes_when_saturated": 1.0,
+      "max_occupancy": 34.8837890625,
+      "verdict": "box filter SLOWER"
+    }
+  },
+  "median_ratio_N100plus": 0.16421933121873533,
+  "extra_boxes_at_saturation": 2.0,
+  "verdict": "mixed_boxfilter_not_uniformly_faster"
+}

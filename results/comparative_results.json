@@ -1,0 +1,358 @@
+{
+  "config": {
+    "budgets": [
+      63,
+      169
+    ],
+    "arms": [
+      "random",
+      "frangi",
+      "entropy",
+      "margin"
+    ],
+    "seeds": [
+      42,
+      123,
+      7
+    ],
+    "fixed_box_size": 128
+  },
+  "runs": [
+    {
+      "arm": "random",
+      "n_boxes": 63,
+      "seed": 42,
+      "n_placed": 63,
+      "best_val_dice": 0.6999268333117167,
+      "final_metrics": {
+        "loss": 0.241777640581131,
+        "dice": 0.6960064172744751,
+        "iou": 0.5356880187988281,
+        "sensitivity": 0.6931537866592408,
+        "specificity": 0.9752864360809326
+      }
+    },
+    {
+      "arm": "frangi",
+      "n_boxes": 63,
+      "seed": 42,
+      "n_placed": 63,
+      "best_val_dice": 0.7063592076301575,
+      "final_metrics": {
+        "loss": 0.24318744540214537,
+        "dice": 0.6983873963356018,
+        "iou": 0.5384486675262451,
+        "sensitivity": 0.7265883684158325,
+        "specificity": 0.9704712271690369
+      }
+    },
+    {
+      "arm": "random",
+      "n_boxes": 63,
+      "seed": 123,
+      "n_placed": 63,
+      "best_val_dice": 0.6992406050364176,
+      "final_metrics": {
+        "loss": 0.24709523022174834,
+        "dice": 0.695067536830902,
+        "iou": 0.5347032666206359,
+        "sensitivity": 0.7227842926979064,
+        "specificity": 0.9702775359153748
+      }
+    },
+    {
+      "arm": "random",
+      "n_boxes": 63,
+      "seed": 7,
+      "n_placed": 63,
+      "best_val_dice": 0.6814961632092794,
+      "final_metrics": {
+        "loss": 0.26766860485076904,
+        "dice": 0.6723369836807251,
+        "iou": 0.5081570267677307,
+        "sensitivity": 0.7057879209518433,
+        "specificity": 0.9668576955795288
+      }
+    },
+    {
+      "arm": "frangi",
+      "n_boxes": 63,
+      "seed": 123,
+      "n_placed": 63,
+      "best_val_dice": 0.7137069702148438,
+      "final_metrics": {
+        "loss": 0.24357925951480866,
+        "dice": 0.7010799407958984,
+        "iou": 0.5413061738014221,
+        "sensitivity": 0.7283510565757751,
+        "specificity": 0.9711591482162476
+      }
+    },
+    {
+      "arm": "frangi",
+      "n_boxes": 63,
+      "seed": 7,
+      "n_placed": 63,
+      "best_val_dice": 0.7036317586898804,
+      "final_metrics": {
+        "loss": 0.2529389351606369,
+        "dice": 0.6905861496925354,
+        "iou": 0.5296022534370423,
+        "sensitivity": 0.7464524507522583,
+        "specificity": 0.96500643491745
+      }
+    },
+    {
+      "arm": "entropy",
+      "n_boxes": 63,
+      "seed": 42,
+      "n_placed": 63,
+      "best_val_dice": 0.7336155772209167,
+      "final_metrics": {
+        "loss": 0.2214764952659607,
+        "dice": 0.7215959668159485,
+        "iou": 0.5662301659584046,
+        "sensitivity": 0.7188610076904297,
+        "specificity": 0.9776151657104493
+      }
+    },
+    {
+      "arm": "entropy",
+      "n_boxes": 63,
+      "seed": 123,
+      "n_placed": 63,
+      "best_val_dice": 0.7244287331899008,
+      "final_metrics": {
+        "loss": 0.23276399374008178,
+        "dice": 0.7094683051109314,
+        "iou": 0.5516397833824158,
+        "sensitivity": 0.725154173374176,
+        "specificity": 0.9736808657646179
+      }
+    },
+    {
+      "arm": "entropy",
+      "n_boxes": 63,
+      "seed": 7,
+      "n_placed": 63,
+      "best_val_dice": 0.73539270957311,
+      "final_metrics": {
+        "loss": 0.2231202095746994,
+        "dice": 0.7220430850982666,
+        "iou": 0.5669391036033631,
+        "sensitivity": 0.7411111235618592,
+        "specificity": 0.9741196513175965
+      }
+    },
+    {
+      "arm": "margin",
+      "n_boxes": 63,
+      "seed": 42,
+      "n_placed": 63,
+      "best_val_dice": 0.7275481224060059,
+      "final_metrics": {
+        "loss": 0.22296832501888275,
+        "dice": 0.7188459277153015,
+        "iou": 0.5621910572052002,
+        "sensitivity": 0.7001025080680847,
+        "specificity": 0.9797454953193665
+      }
+    },
+    {
+      "arm": "margin",
+      "n_boxes": 63,
+      "seed": 123,
+      "n_placed": 63,
+      "best_val_dice": 0.722125252087911,
+      "final_metrics": {
+        "loss": 0.23383887112140656,
+        "dice": 0.7097972631454468,
+        "iou": 0.551839017868042,
+        "sensitivity": 0.7482922315597534,
+        "specificity": 0.9698349237442017
+      }
+    },
+    {
+      "arm": "margin",
+      "n_boxes": 63,
+      "seed": 7,
+      "n_placed": 63,
+      "best_val_dice": 0.7088924845059713,
+      "final_metrics": {
+        "loss": 0.24560996294021606,
+        "dice": 0.7005136489868165,
+        "iou": 0.5404114365577698,
+        "sensitivity": 0.7084442377090454,
+        "specificity": 0.9741863012313843
+      }
+    },
+    {
+      "arm": "random",
+      "n_boxes": 169,
+      "seed": 42,
+      "n_placed": 169,
+      "best_val_dice": 0.7278244892756144,
+      "final_metrics": {
+        "loss": 0.2275870233774185,
+        "dice": 0.7182483911514282,
+        "iou": 0.562009620666504,
+        "sensitivity": 0.726723313331604,
+        "specificity": 0.9757550358772278
+      }
+    },
+    {
+      "arm": "random",
+      "n_boxes": 169,
+      "seed": 123,
+      "n_placed": 169,
+      "best_val_dice": 0.746238092581431,
+      "final_metrics": {
+        "loss": 0.21469787061214446,
+        "dice": 0.7333964228630065,
+        "iou": 0.5807186484336853,
+        "sensitivity": 0.7577946662902832,
+        "specificity": 0.974659264087677
+      }
+    },
+    {
+      "arm": "random",
+      "n_boxes": 169,
+      "seed": 7,
+      "n_placed": 169,
+      "best_val_dice": 0.7482459942499796,
+      "final_metrics": {
+        "loss": 0.21262674927711486,
+        "dice": 0.7414181232452393,
+        "iou": 0.5907876253128052,
+        "sensitivity": 0.7576662421226501,
+        "specificity": 0.9763517618179322
+      }
+    },
+    {
+      "arm": "frangi",
+      "n_boxes": 169,
+      "seed": 42,
+      "n_placed": 169,
+      "best_val_dice": 0.7255532145500183,
+      "final_metrics": {
+        "loss": 0.22968467473983764,
+        "dice": 0.7169122338294983,
+        "iou": 0.5602633953094482,
+        "sensitivity": 0.7073664903640747,
+        "specificity": 0.9781208992004394
+      }
+    },
+    {
+      "arm": "frangi",
+      "n_boxes": 169,
+      "seed": 123,
+      "n_placed": 169,
+      "best_val_dice": 0.6937016050020853,
+      "final_metrics": {
+        "loss": 0.2457634150981903,
+        "dice": 0.6965466737747192,
+        "iou": 0.5362497866153717,
+        "sensitivity": 0.675171685218811,
+        "specificity": 0.9782079815864563
+      }
+    },
+    {
+      "arm": "frangi",
+      "n_boxes": 169,
+      "seed": 7,
+      "n_placed": 169,
+      "best_val_dice": 0.6993037064870199,
+      "final_metrics": {
+        "loss": 0.2425500124692917,
+        "dice": 0.7022140979766845,
+        "iou": 0.5427479147911072,
+        "sensitivity": 0.6837278008460999,
+        "specificity": 0.9780395984649658
+      }
+    },
+    {
+      "arm": "entropy",
+      "n_boxes": 169,
+      "seed": 42,
+      "n_placed": 169,
+      "best_val_dice": 0.748006800810496,
+      "final_metrics": {
+        "loss": 0.1956866651773453,
+        "dice": 0.7573701977729798,
+        "iou": 0.6108232736587524,
+        "sensitivity": 0.7518882751464844,
+        "specificity": 0.9808351635932923
+      }
+    },
+    {
+      "arm": "entropy",
+      "n_boxes": 169,
+      "seed": 123,
+      "n_placed": 169,
+      "best_val_dice": 0.7493008573849996,
+      "final_metrics": {
+        "loss": 0.1938338100910187,
+        "dice": 0.7584194540977478,
+        "iou": 0.6125320076942444,
+        "sensitivity": 0.774639081954956,
+        "specificity": 0.9778190374374389
+      }
+    },
+    {
+      "arm": "entropy",
+      "n_boxes": 169,
+      "seed": 7,
+      "n_placed": 169,
+      "best_val_dice": 0.7227312127749125,
+      "final_metrics": {
+        "loss": 0.2064037948846817,
+        "dice": 0.7382649302482605,
+        "iou": 0.5870314717292786,
+        "sensitivity": 0.7365329027175903,
+        "specificity": 0.9786268591880798
+      }
+    },
+    {
+      "arm": "margin",
+      "n_boxes": 169,
+      "seed": 42,
+      "n_placed": 169,
+      "best_val_dice": 0.7482066750526428,
+      "final_metrics": {
+        "loss": 0.1976403445005417,
+        "dice": 0.7564777135848999,
+        "iou": 0.6101792693138123,
+        "sensitivity": 0.7695330262184144,
+        "specificity": 0.978245484828949
+      }
+    },
+    {
+      "arm": "margin",
+      "n_boxes": 169,
+      "seed": 123,
+      "n_placed": 169,
+      "best_val_dice": 0.7226479848225912,
+      "final_metrics": {
+        "loss": 0.21197251081466675,
+        "dice": 0.7349318265914917,
+        "iou": 0.5827892422676086,
+        "sensitivity": 0.7472041487693787,
+        "specificity": 0.9764200806617737
+      }
+    },
+    {
+      "arm": "margin",
+      "n_boxes": 169,
+      "seed": 7,
+      "n_placed": 169,
+      "best_val_dice": 0.7276164293289185,
+      "final_metrics": {
+        "loss": 0.21248458921909333,
+        "dice": 0.7357836723327636,
+        "iou": 0.5835567235946655,
+        "sensitivity": 0.74106285572052,
+        "specificity": 0.9773782253265381
+      }
+    }
+  ]
+}

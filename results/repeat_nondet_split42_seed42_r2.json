@@ -1,0 +1,96 @@
+{
+  "run_id": "repeat_nondet_split42_seed42_r2",
+  "model_seed": 42,
+  "split_seed": 42,
+  "repeat": 2,
+  "deterministic": false,
+  "arms": [
+    "full",
+    "sparse"
+  ],
+  "n_train": 63,
+  "n_val": 12,
+  "n_test": 18,
+  "test_ids": [
+    "CHASE/Image_06R",
+    "CHASE/Image_10R",
+    "CHASE/Image_11L",
+    "CHASE/Image_12R",
+    "CHASE/Image_14L",
+    "DRIVE/22_training",
+    "DRIVE/25_training",
+    "DRIVE/33_training",
+    "DRIVE/36_training",
+    "HRF/01_h",
+    "HRF/02_g",
+    "HRF/04_h",
+    "HRF/06_h",
+    "HRF/07_h",
+    "HRF/08_g",
+    "HRF/09_dr",
+    "HRF/10_dr",
+    "HRF/15_g"
+  ],
+  "full_supervision": {
+    "loss": 0.20013367831707002,
+    "dice": 0.7506832122802735,
+    "iou": 0.6022970080375671,
+    "sensitivity": 0.7343621611595154,
+    "specificity": 0.9826124787330628
+  },
+  "full_supervision_per_dataset": {
+    "CHASE": {
+      "loss": 0.17311597615480423,
+      "dice": 0.7771359086036682,
+      "iou": 0.6358688473701477,
+      "sensitivity": 0.8131593465805054,
+      "specificity": 0.9800402522087097
+    },
+    "DRIVE": {
+      "loss": 0.20646148920059204,
+      "dice": 0.7490251064300537,
+      "iou": 0.6000378727912903,
+      "sensitivity": 0.6578224897384644,
+      "specificity": 0.9903696179389954
+    },
+    "HRF": {
+      "loss": 0.21719199419021606,
+      "dice": 0.7320637901624044,
+      "iou": 0.5783396164576212,
+      "sensitivity": 0.7100624442100525,
+      "specificity": 0.9803874293963114
+    }
+  },
+  "annotation_coverage": 0.0038457010228556084,
+  "sparse_baseline": {
+    "loss": 0.25220486223697663,
+    "dice": 0.6972448945045471,
+    "iou": 0.5370637655258179,
+    "sensitivity": 0.7308003425598144,
+    "specificity": 0.9687368512153626
+  },
+  "sparse_baseline_per_dataset": {
+    "CHASE": {
+      "loss": 0.21031994372606277,
+      "dice": 0.7301828563213348,
+      "iou": 0.5752193629741669,
+      "sensitivity": 0.7522446811199188,
+      "specificity": 0.9781151115894318
+    },
+    "DRIVE": {
+      "loss": 0.22907474637031555,
+      "dice": 0.7298742532730103,
+      "iou": 0.5750949382781982,
+      "sensitivity": 0.6826945543289185,
+      "specificity": 0.9810976386070251
+    },
+    "HRF": {
+      "loss": 0.2970019777615865,
+      "dice": 0.6536575357119242,
+      "iou": 0.48644877473513287,
+      "sensitivity": 0.7364585399627686,
+      "specificity": 0.9547630151112875
+    }
+  },
+  "wall_clock_seconds": 396.62669801712036
+}
